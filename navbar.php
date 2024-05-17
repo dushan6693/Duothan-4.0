@@ -4,13 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="css/navbar.css">
 </head>
 <body>
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="logo/logo.png" width="110" height="80">
+            <img src="resources/logo.png" width="110" height="80">
           </a>
           <div class="nav-item" >
             
