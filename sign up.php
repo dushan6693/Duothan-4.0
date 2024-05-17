@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +13,7 @@
         <p class="title">Already have an account? 
             <a rel="noopener noreferrer" href="#" class="">Log In</a>
         </p>
-        <form class="form" action="#">
+        <form class="form" action="insert.php" method="post">
             <div class="row g-3">
                 <div class="input-container col-lg-6">
                     <label for="first-name" class="form-label">First Name</label>
@@ -21,7 +22,7 @@
                 </div>
                 <div class="input-container col-lg-6">
                     <label for="last-name" class="form-label">Last Name</label>
-                    <input type="text"  class="form-control">
+                    <input type="text" id="last-name"  class="form-control">
                 </div>
             </div>
             <div class="row g-3">
@@ -32,12 +33,12 @@
                 </div>
                 <div class="input-container col-lg-6">
                     <label for="mobile number" class="form-label">Mobile Number</label>
-                    <input type="text"  class="form-control">
+                    <input type="text" id="mobile" class="form-control">
                 </div>
             </div>
             <div class="input-container col-lg-12">
                 <label for="email" class="form-label">Email</label>
-                <input type="text" class="form-control">
+                <input type="text" id="email" class="form-control">
             </div>
             <div class="row g-3">
                 <div class="input-container col-lg-6">
@@ -47,7 +48,7 @@
                 </div>
                 <div class="input-container col-lg-6">
                     <label for="Confirm Your Password" class="form-label">Confirm Your Password</label>
-                    <input type="text"  class="form-control">
+                    <input type="password" id="re-password"  class="form-control">
                 </div>
             </div>
             <br>

@@ -1,4 +1,15 @@
+
+
+<?php
+
+session_start();
+
+
+$_SESSION["username"] = "Dushan";
+?>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,16 +22,34 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="resources/logo.png" width="110" height="80">
-          </a>
-          <div class="nav-item" >
+
+</a>
+        
+          <?php
+          if (!isset($_SESSION["username"])) {
+            echo("
+            <div class='nav-item' >
+            <p>".$_SESSION["username"]."</p>
+            <a  class='mx-1' href='url'>
+                <button type='submit' class='btn btn-primary'>Sign Out</button>
+            </a>
+        </div>
+            ");
+          
+        }else{
+          echo("
+          <div class='nav-item' >
             
-              <a href="url">
-                  <button type="submit" class="btn btn-secondary mr-3">Sign in</button>
-              </a>
-              <a  class="mx-1" href="url">
-                  <button type="submit" class="btn btn-primary">Sign up</button>
-              </a>
-          </div>
+          <a href='url'>
+              <button type='submit' class='btn btn-secondary mr-3'>Sign in</button>
+          </a>
+          <a  class='mx-1' href='url'>
+              <button type='submit' class='btn btn-primary'>Sign up</button>
+          </a>
+      </div>
+          ");
+        }
+          ?>
         </div>
         
       </nav>
