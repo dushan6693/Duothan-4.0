@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $password = $_POST["password"];
     $repassword = $_POST["re-password"];
-    $status = $_POST["status"];
+    $status = "user";
 
 
 $write_q = "INSERT INTO user(u_username, u_fname, u_lname, u_mobile, u_email, u_password, u_status, u_dtpcode)VALUES('$username','$fname','$lname','$username','$mobile','$email','$password','$status','$dtpcode');";
