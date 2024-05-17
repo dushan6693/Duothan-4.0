@@ -40,10 +40,10 @@ $_SESSION["username"] = "Dushan";
           echo("
           <div class='nav-item' >
             
-          <a href='url'>
+          <a href='signin.php'>
               <button type='submit' class='btn btn-secondary mr-3'>Sign in</button>
           </a>
-          <a  class='mx-1' href='url'>
+          <a  class='mx-1' href='signup'>
               <button type='submit' class='btn btn-primary'>Sign up</button>
           </a>
       </div>
