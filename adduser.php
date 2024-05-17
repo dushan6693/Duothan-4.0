@@ -54,10 +54,7 @@
                         </div>
                     </div>
                     <br>
-                    <div class="flex-row">
-                        <input type="checkbox">
-                        <label>I agree the terms & Conditions</label>
-                    </div>
+                    
                     <button>Add User</button>
                 </form>
               </section>
