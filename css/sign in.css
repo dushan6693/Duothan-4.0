@@ -100,9 +100,15 @@
     width: 1.25rem;
     fill:  #000;
   }
-  .a link{
+  a {
     color: #ff5e72;
+      margin-left: 4px;
+      font-size: 16px;
+      text-decoration-color: none;
+      cursor: pointer;
+      font-weight: 600;
   }
+  
   .signup {
     text-align: center;
     font-size: 0.85rem;
